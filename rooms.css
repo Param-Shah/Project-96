@@ -1,0 +1,21 @@
+.container {
+    border-radius: 50px;
+    height: 600px;
+    max-width: 850px;
+    background-color:white;
+    background: rgb(0, 0, 199)
+}
+body {
+    background-image: url(social-media-dark-doodle-seamless-pattern-repeated-ornament-white-hand-drawn-elements-black-background-vector-illustration-162764750.jpg);
+}
+
+#logout {
+    float: right;
+}
+#addroombutton {
+    font-size: xx-large; 
+    background-color: transparent;
+    color:#39FF14;
+    border-radius:5px;
+
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chatroom</title>
+
+        <link rel="stylesheet" href="chatroom.css">
+
+
+
+
+
+
+
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+
+
+
+    <body>
+        <h1><span id="chatroom_name"></span></h1>
+        <button class="fa fa-sign-out" style="font-size: x-large; background-color: transparent; color: rgb(0, 0, 0); border-color: aqua; border-width: 3px; border-style:inset;" onclick="logout()" id="logout">Logout</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="container">
+            <br>
+            <br>
+            <div id="messages">
+
+            </div>
+            <br>
+            <input class="form-control" placeholder="Enter your message here" type="text" id="input">
+            <br>
+            <button onclick="send()">Send message</button>
+            <br>
+        </div>
+
+        <script src="chatroom.js"></script>
+    </body>
+</html>
